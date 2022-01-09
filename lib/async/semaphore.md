@@ -11,7 +11,7 @@ Sync do
 	# Only allow two concurrent tasks at a time:
 	semaphore = Async::Semaphore.new(2)
 	
-	# Generate an array of 10 numbers:
+	# Array of string to be searched on google.
 	terms = ['ruby', 'python', 'go', 'java', 'c++'] 
 	
 	# Search for the terms:
